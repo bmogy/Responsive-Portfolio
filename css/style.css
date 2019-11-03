@@ -28,7 +28,7 @@ body{
     text-decoration: none;
     font-size: 1.5rem;
     color: #4aaaa5;;
-    
+
     }
     nav ul li a:hover{
     text-decoration: none;
@@ -39,9 +39,9 @@ body{
     }
     
     .wrapper-one{
-    margin: 40px auto;
+    margin: 40px auto 80px auto;
     max-width: 960px;
-    padding: 20px 20px;
+    padding: 20px 20px  10px 20px;
     
     
     }

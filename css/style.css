@@ -8,7 +8,9 @@ body{
     .name{
     padding: 15px 10px;
     box-sizing: border-box;
-    max-width: 200px;
+    max-width: 400px;
+    min-width: 200px;
+    background-color: #4aaaa5;
     }
     nav ul{
     display: flex;
@@ -25,10 +27,12 @@ body{
     nav ul li a{
     text-decoration: none;
     font-size: 1.5rem;
+    color: #4aaaa5;;
     
     }
     nav ul li a:hover{
     text-decoration: none;
+    color: #4aaaa5;;
     }
     .header{
     height:69px;
@@ -47,7 +51,7 @@ body{
     }
     
     .about-me{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #4aaaa5;;
     margin: 0 0 0 0;
     padding: 0;
     
@@ -68,7 +72,7 @@ body{
     }
     
     .img-container-p-block{
-    background-color: green;
+   
     position: absolute;
     bottom: 5px;
     left:0;
@@ -85,13 +89,15 @@ body{
     box-sizing: border-box;
     }
     .green{
-    color:#4AAAA5;
-    }
-    .bg-success{
         color:#4AAAA5;
-    }
+        }
+      
     .bg-green{
     background-color: #4aaaa5;
+    color: white;
+    }
+    .bg-green:hover{
+        color: white;
     }
     .text-green{
     color:#4aaaa5;
@@ -112,7 +118,7 @@ body{
         .header{
         height:175px;
         }
-        .h{
+        .name{
             max-width:1000px ;
             text-align: center;
         }
